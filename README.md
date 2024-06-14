@@ -74,6 +74,10 @@ If you have any questions or suggestions, feel free to reach out to me via [veda
 
 This project is a testament to my ability to work with modern web technologies and APIs, and my passion for creating tools that enhance productivity and learning. I am confident that these qualities make me a strong candidate for any software development role.
 
+Screenshots
+-----------
+![alt text](image-2.png)
+
 Built this project in just 14 minutes
 -------
 Start Time: 19:16
