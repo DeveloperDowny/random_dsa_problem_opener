@@ -73,3 +73,11 @@ If you have any questions or suggestions, feel free to reach out to me via [veda
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/vedantpanchal)](https://www.linkedin.com/in/vedantpanchal)
 
 This project is a testament to my ability to work with modern web technologies and APIs, and my passion for creating tools that enhance productivity and learning. I am confident that these qualities make me a strong candidate for any software development role.
+
+Built this project in just 14 minutes
+-------
+Start Time: 19:16
+![alt text](image-1.png)
+
+End Time: 19:30
+![alt text](image.png)
