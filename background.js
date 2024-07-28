@@ -18,10 +18,7 @@ async function openRandomLink() {
     "https://practice.geeksforgeeks.org/problems/",
     "https://www.geeksforgeeks.org/problems/",
     "https://leetcode.com/problems/",
-  ];
-  // const filteredLinks = links[0].result.filter(
-  //   (link) => link && link !== url && link.startsWith(prefix)
-  // );
+  ]; 
 
   const filteredLinks = links[0].result.filter(
     (link) =>
