@@ -18,7 +18,8 @@ async function openRandomLink() {
     "https://practice.geeksforgeeks.org/problems/",
     "https://www.geeksforgeeks.org/problems/",
     "https://leetcode.com/problems/",
-  ]; 
+    "https://www.naukri.com/code360/problems/",
+  ];
 
   const filteredLinks = links[0].result.filter(
     (link) =>
