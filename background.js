@@ -11,9 +11,34 @@ async function openRandomLink() {
 
   // Filter out empty URLs and the current page URL and only keep the links that start with "https://www.geeksforgeeks.org/problems/"
   const prefix = "https://www.geeksforgeeks.org/problems/";
+
+  // href="https://practice.geeksforgeeks.org/problems/merge-two-sorted-linked-lists/1"
+
+  const prefixList = [
+    "https://practice.geeksforgeeks.org/problems/",
+    "https://www.geeksforgeeks.org/problems/",
+  ];
+  // const filteredLinks = links[0].result.filter(
+  //   (link) => link && link !== url && link.startsWith(prefix)
+  // );
+
   const filteredLinks = links[0].result.filter(
-    (link) => link && link !== url && link.startsWith(prefix)
+    (link) =>
+      link &&
+      link !== url &&
+      prefixList.some((prefix) => link.startsWith(prefix))
   );
+  console.log(filteredLinks);
+  // crate new links list with ids of the links
+  const linksWithId = filteredLinks.map((link, index) => ({
+    id: index,
+    url: link,
+    title: link,
+  }));
+  const sheetData = {
+    sheetData: linksWithId,
+  };
+  console.log(sheetData);
 
   if (filteredLinks.length > 0) {
     const randomIndex = Math.floor(Math.random() * filteredLinks.length);
