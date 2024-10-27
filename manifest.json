@@ -1,13 +1,20 @@
 {
   "manifest_version": 3,
-  "name": "Random Link Opener",
+  "name": "SolveNext",
   "version": "1.0",
-  "description": "Opens a random link from the current page",
+  "description": "Spend your energy solving, not finding.",
   "permissions": ["activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"
   },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
   }
 }
