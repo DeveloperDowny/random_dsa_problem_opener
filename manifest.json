@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "PickOne - Pick Random Coding Problem",
   "version": "1.0",
-  "description": "Spend your energy solving, not choosing. Pick a random coding problem from active webpage and go ahead and solve it! No more procrastination!",
+  "description": "Spend your energy solving, not choosing. Pick a random coding problem from active webpage and go ahead and solve it! No indecision!",
   "permissions": ["activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"
