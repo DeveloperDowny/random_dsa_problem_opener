@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "SolveNext",
+  "name": "Pick One",
   "version": "1.0",
-  "description": "Spend your energy solving, not finding.",
+  "description": "Spend your energy solving, not choosing.",
   "permissions": ["activeTab", "scripting"],
   "background": {
     "service_worker": "background.js"
